@@ -1,0 +1,182 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-2023-001",
+      "customer": "АвтоТех",
+      "parts": [
+        {
+          "part_id": "PT-10001",
+          "quantity": 500
+        },
+        {
+          "part_id": "PT-10005",
+          "quantity": 200
+        }
+      ],
+      "deadline": "2023-11-15T18:00:00",
+      "priority": 1,
+      "created_at": "2023-10-25T09:15:30"
+    },
+    {
+      "order_id": "ORD-2023-002",
+      "customer": "МеталлПром",
+      "parts": [
+        {
+          "part_id": "PT-10003",
+          "quantity": 350
+        },
+        {
+          "part_id": "PT-10008",
+          "quantity": 150
+        },
+        {
+          "part_id": "PT-10002",
+          "quantity": 700
+        }
+      ],
+      "deadline": "2023-11-20T18:00:00",
+      "priority": 2,
+      "created_at": "2023-10-26T14:30:00"
+    },
+    {
+      "order_id": "ORD-2023-003",
+      "customer": "СтройДеталь",
+      "parts": [
+        {
+          "part_id": "PT-10006",
+          "quantity": 1200
+        }
+      ],
+      "deadline": "2023-11-10T18:00:00",
+      "priority": 1,
+      "created_at": "2023-10-24T11:45:20"
+    },
+    {
+      "order_id": "ORD-2023-004",
+      "customer": "ЗаводКомпонент",
+      "parts": [
+        {
+          "part_id": "PT-10004",
+          "quantity": 800
+        },
+        {
+          "part_id": "PT-10007",
+          "quantity": 600
+        }
+      ],
+      "deadline": "2023-11-25T18:00:00",
+      "priority": 3,
+      "created_at": "2023-10-27T10:20:15"
+    },
+    {
+      "order_id": "ORD-2023-005",
+      "customer": "МашДеталь",
+      "parts": [
+        {
+          "part_id": "PT-10002",
+          "quantity": 400
+        },
+        {
+          "part_id": "PT-10009",
+          "quantity": 250
+        },
+        {
+          "part_id": "PT-10001",
+          "quantity": 300
+        }
+      ],
+      "deadline": "2023-11-18T18:00:00",
+      "priority": 2,
+      "created_at": "2023-10-26T16:50:40"
+    },
+    {
+      "order_id": "ORD-2023-006",
+      "customer": "АгроТехника",
+      "parts": [
+        {
+          "part_id": "PT-10010",
+          "quantity": 180
+        },
+        {
+          "part_id": "PT-10003",
+          "quantity": 420
+        }
+      ],
+      "deadline": "2023-11-30T18:00:00",
+      "priority": 4,
+      "created_at": "2023-10-28T08:45:10"
+    },
+    {
+      "order_id": "ORD-2023-007",
+      "customer": "ЭнергоКомплект",
+      "parts": [
+        {
+          "part_id": "PT-10005",
+          "quantity": 950
+        },
+        {
+          "part_id": "PT-10008",
+          "quantity": 300
+        }
+      ],
+      "deadline": "2023-11-12T18:00:00",
+      "priority": 1,
+      "created_at": "2023-10-24T15:30:25"
+    },
+    {
+      "order_id": "ORD-2023-008",
+      "customer": "СпецТранс",
+      "parts": [
+        {
+          "part_id": "PT-10001",
+          "quantity": 750
+        },
+        {
+          "part_id": "PT-10006",
+          "quantity": 500
+        },
+        {
+          "part_id": "PT-10007",
+          "quantity": 350
+        }
+      ],
+      "deadline": "2023-11-22T18:00:00",
+      "priority": 2,
+      "created_at": "2023-10-27T13:20:30"
+    },
+    {
+      "order_id": "ORD-2023-009",
+      "customer": "ПромСтрой",
+      "parts": [
+        {
+          "part_id": "PT-10004",
+          "quantity": 600
+        },
+        {
+          "part_id": "PT-10010",
+          "quantity": 480
+        }
+      ],
+      "deadline": "2023-11-14T18:00:00",
+      "priority": 1,
+      "created_at": "2023-10-25T12:10:45"
+    },
+    {
+      "order_id": "ORD-2023-010",
+      "customer": "ТехноМеталл",
+      "parts": [
+        {
+          "part_id": "PT-10002",
+          "quantity": 900
+        },
+        {
+          "part_id": "PT-10009",
+          "quantity": 550
+        }
+      ],
+      "deadline": "2023-11-28T18:00:00",
+      "priority": 3,
+      "created_at": "2023-10-28T09:40:20"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "inventory": [
+    {
+      "part_id": "PT-10001",
+      "name": "Шестерня привода",
+      "current_quantity": 350,
+      "min_quantity": 100,
+      "optimal_quantity": 500,
+      "location": "A-12-3",
+      "last_updated": "2023-10-28T09:00:00",
+      "pending_in": 0,
+      "reserved": 150
+    },
+    {
+      "part_id": "PT-10002",
+      "name": "Вал коленчатый",
+      "current_quantity": 120,
+      "min_quantity": 50,
+      "optimal_quantity": 200,
+      "location": "B-04-1",
+      "last_updated": "2023-10-27T16:30:00",
+      "pending_in": 80,
+      "reserved": 40
+    },
+    {
+      "part_id": "PT-10003",
+      "name": "Втулка подшипника",
+      "current_quantity": 480,
+      "min_quantity": 200,
+      "optimal_quantity": 800,
+      "location": "A-05-2",
+      "last_updated": "2023-10-28T12:15:00",
+      "pending_in": 0,
+      "reserved": 100
+    },
+    {
+      "part_id": "PT-10004",
+      "name": "Корпус редуктора",
+      "current_quantity": 90,
+      "min_quantity": 40,
+      "optimal_quantity": 150,
+      "location": "C-08-4",
+      "last_updated": "2023-10-26T14:45:00",
+      "pending_in": 0,
+      "reserved": 30
+    },
+    {
+      "part_id": "PT-10005",
+      "name": "Крышка подшипника",
+      "current_quantity": 620,
+      "min_quantity": 300,
+      "optimal_quantity": 1000,
+      "location": "A-09-1",
+      "last_updated": "2023-10-28T10:30:00",
+      "pending_in": 0,
+      "reserved": 200
+    },
+    {
+      "part_id": "PT-10006",
+      "name": "Шкив клиноременной передачи",
+      "current_quantity": 210,
+      "min_quantity": 100,
+      "optimal_quantity": 400,
+      "location": "B-07-3",
+      "last_updated": "2023-10-27T11:20:00",
+      "pending_in": 0,
+      "reserved": 50
+    },
+    {
+      "part_id": "PT-10007",
+      "name": "Зубчатое колесо",
+      "current_quantity": 180,
+      "min_quantity": 80,
+      "optimal_quantity": 300,
+      "location": "A-14-2",
+      "last_updated": "2023-10-28T14:00:00",
+      "pending_in": 0,
+      "reserved": 0
+    },
+    {
+      "part_id": "PT-10008",
+      "name": "Фланец соединительный",
+      "current_quantity": 95,
+      "min_quantity": 70,
+      "optimal_quantity": 250,
+      "location": "B-10-4",
+      "last_updated": "2023-10-25T16:45:00",
+      "pending_in": 100,
+      "reserved": 45
+    },
+    {
+      "part_id": "PT-10009",
+      "name": "Крыльчатка насоса",
+      "current_quantity": 40,
+      "min_quantity": 30,
+      "optimal_quantity": 120,
+      "location": "C-02-1",
+      "last_updated": "2023-10-26T09:10:00",
+      "pending_in": 50,
+      "reserved": 20
+    },
+    {
+      "part_id": "PT-10010",
+      "name": "Ступица колеса",
+      "current_quantity": 75,
+      "min_quantity": 50,
+      "optimal_quantity": 180,
+      "location": "D-11-2",
+      "last_updated": "2023-10-27T15:30:00",
+      "pending_in": 0,
+      "reserved": 25
+    }
+  ]
+}

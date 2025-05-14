@@ -1,0 +1,154 @@
+{
+  "technical_maps": [
+    {
+      "part_id": "PT-10001",
+      "name": "Шестерня привода",
+      "production_time_minutes": 45,
+      "compatible_equipment": ["EQ-001", "EQ-002", "EQ-007"],
+      "setup_time_minutes": 30,
+      "material_requirements": [
+        {
+          "material_id": "MAT-001",
+          "quantity_per_unit": 1.2
+        }
+      ],
+      "description": "Шестерня для коробки передач, сталь 40Х",
+      "technical_requirements": "Допуск по диаметру ±0.05мм"
+    },
+    {
+      "part_id": "PT-10002",
+      "name": "Вал коленчатый",
+      "production_time_minutes": 120,
+      "compatible_equipment": ["EQ-003", "EQ-004"],
+      "setup_time_minutes": 60,
+      "material_requirements": [
+        {
+          "material_id": "MAT-002",
+          "quantity_per_unit": 2.5
+        }
+      ],
+      "description": "Вал коленчатый для двигателя, чугун ВЧ-50",
+      "technical_requirements": "Твердость 220-260 HB"
+    },
+    {
+      "part_id": "PT-10003",
+      "name": "Втулка подшипника",
+      "production_time_minutes": 30,
+      "compatible_equipment": ["EQ-001", "EQ-005", "EQ-006"],
+      "setup_time_minutes": 25,
+      "material_requirements": [
+        {
+          "material_id": "MAT-003",
+          "quantity_per_unit": 0.8
+        }
+      ],
+      "description": "Втулка подшипника скольжения, бронза БрАЖ9-4",
+      "technical_requirements": "Шероховатость не более Ra 1.25"
+    },
+    {
+      "part_id": "PT-10004",
+      "name": "Корпус редуктора",
+      "production_time_minutes": 180,
+      "compatible_equipment": ["EQ-008", "EQ-009"],
+      "setup_time_minutes": 90,
+      "material_requirements": [
+        {
+          "material_id": "MAT-004",
+          "quantity_per_unit": 5.0
+        }
+      ],
+      "description": "Корпус червячного редуктора, алюминиевый сплав АЛ9",
+      "technical_requirements": "Герметичность при давлении 0.5 МПа"
+    },
+    {
+      "part_id": "PT-10005",
+      "name": "Крышка подшипника",
+      "production_time_minutes": 60,
+      "compatible_equipment": ["EQ-002", "EQ-005", "EQ-008"],
+      "setup_time_minutes": 20,
+      "material_requirements": [
+        {
+          "material_id": "MAT-005",
+          "quantity_per_unit": 1.1
+        }
+      ],
+      "description": "Крышка подшипникового узла, сталь 20",
+      "technical_requirements": "Отклонение от плоскостности не более 0.1мм"
+    },
+    {
+      "part_id": "PT-10006",
+      "name": "Шкив клиноременной передачи",
+      "production_time_minutes": 90,
+      "compatible_equipment": ["EQ-001", "EQ-003", "EQ-010"],
+      "setup_time_minutes": 40,
+      "material_requirements": [
+        {
+          "material_id": "MAT-006",
+          "quantity_per_unit": 1.8
+        }
+      ],
+      "description": "Шкив для клиноременной передачи, чугун СЧ20",
+      "technical_requirements": "Дисбаланс не более 5г·мм"
+    },
+    {
+      "part_id": "PT-10007",
+      "name": "Зубчатое колесо",
+      "production_time_minutes": 150,
+      "compatible_equipment": ["EQ-007", "EQ-010"],
+      "setup_time_minutes": 55,
+      "material_requirements": [
+        {
+          "material_id": "MAT-007",
+          "quantity_per_unit": 2.2
+        }
+      ],
+      "description": "Зубчатое колесо цилиндрическое, сталь 40ХН",
+      "technical_requirements": "Точность по ГОСТ 1643-81 степень 7-В"
+    },
+    {
+      "part_id": "PT-10008",
+      "name": "Фланец соединительный",
+      "production_time_minutes": 75,
+      "compatible_equipment": ["EQ-002", "EQ-004", "EQ-008"],
+      "setup_time_minutes": 35,
+      "material_requirements": [
+        {
+          "material_id": "MAT-008",
+          "quantity_per_unit": 1.6
+        }
+      ],
+      "description": "Фланец для соединения валов, сталь 35",
+      "technical_requirements": "Биение торцевое не более 0.05мм"
+    },
+    {
+      "part_id": "PT-10009",
+      "name": "Крыльчатка насоса",
+      "production_time_minutes": 100,
+      "compatible_equipment": ["EQ-006", "EQ-009"],
+      "setup_time_minutes": 45,
+      "material_requirements": [
+        {
+          "material_id": "MAT-009",
+          "quantity_per_unit": 1.3
+        }
+      ],
+      "description": "Крыльчатка центробежного насоса, латунь ЛС59-1",
+      "technical_requirements": "Гидравлическая балансировка обязательна"
+    },
+    {
+      "part_id": "PT-10010",
+      "name": "Ступица колеса",
+      "production_time_minutes": 130,
+      "compatible_equipment": ["EQ-003", "EQ-007", "EQ-010"],
+      "setup_time_minutes": 50,
+      "material_requirements": [
+        {
+          "material_id": "MAT-010",
+          "quantity_per_unit": 2.8
+        }
+      ],
+      "description": "Ступица для колеса грузового автомобиля, сталь 45",
+      "technical_requirements": "Твердость поверхности 28...32 HRC"
+    }
+  ]
+}

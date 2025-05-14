@@ -1,0 +1,381 @@
+{
+  "equipment": [
+    {
+      "equipment_id": "EQ-001",
+      "name": "Токарный станок ЧПУ",
+      "type": "turning",
+      "quantity": 3,
+      "max_parts_per_shift": 800,
+      "efficiency_factor": 0.95,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": false,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-03",
+          "shift_id": 1,
+          "duration_hours": 4,
+          "reason": "Плановое ТО"
+        },
+        {
+          "date": "2023-11-17",
+          "shift_id": 2,
+          "duration_hours": 8,
+          "reason": "Капитальный ремонт"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-002",
+      "name": "Фрезерный станок ЧПУ",
+      "type": "milling",
+      "quantity": 2,
+      "max_parts_per_shift": 600,
+      "efficiency_factor": 0.92,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": true,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-05",
+          "shift_id": 1,
+          "duration_hours": 6,
+          "reason": "Обновление ПО"
+        },
+        {
+          "date": "2023-11-20",
+          "shift_id": 1,
+          "duration_hours": 4,
+          "reason": "Плановое ТО"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-003",
+      "name": "Шлифовальный станок",
+      "type": "grinding",
+      "quantity": 2,
+      "max_parts_per_shift": 500,
+      "efficiency_factor": 0.9,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": false,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-10",
+          "shift_id": 2,
+          "duration_hours": 3,
+          "reason": "Замена абразивов"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-004",
+      "name": "Координатно-расточной станок",
+      "type": "boring",
+      "quantity": 1,
+      "max_parts_per_shift": 300,
+      "efficiency_factor": 0.88,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": false,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-08",
+          "shift_id": 1,
+          "duration_hours": 8,
+          "reason": "Регулировка приводов"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-005",
+      "name": "Сверлильный станок",
+      "type": "drilling",
+      "quantity": 4,
+      "max_parts_per_shift": 1000,
+      "efficiency_factor": 0.97,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": true,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-15",
+          "shift_id": 3,
+          "duration_hours": 2,
+          "reason": "Замена приводных ремней"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-006",
+      "name": "Долбежный станок",
+      "type": "slotting",
+      "quantity": 1,
+      "max_parts_per_shift": 200,
+      "efficiency_factor": 0.85,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": false,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": false,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": []
+    },
+    {
+      "equipment_id": "EQ-007",
+      "name": "Зубофрезерный станок",
+      "type": "gear_cutting",
+      "quantity": 2,
+      "max_parts_per_shift": 150,
+      "efficiency_factor": 0.9,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": false,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-01",
+          "shift_id": 1,
+          "duration_hours": 5,
+          "reason": "Настройка зубофрезы"
+        },
+        {
+          "date": "2023-11-22",
+          "shift_id": 2,
+          "duration_hours": 6,
+          "reason": "Плановое ТО"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-008",
+      "name": "Обрабатывающий центр",
+      "type": "machining_center",
+      "quantity": 1,
+      "max_parts_per_shift": 400,
+      "efficiency_factor": 0.93,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": true,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-12",
+          "shift_id": 3,
+          "duration_hours": 8,
+          "reason": "Плановое ТО"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-009",
+      "name": "Литейная машина",
+      "type": "casting",
+      "quantity": 1,
+      "max_parts_per_shift": 100,
+      "efficiency_factor": 0.82,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": false,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-07",
+          "shift_id": 1,
+          "duration_hours": 6,
+          "reason": "Чистка печи"
+        },
+        {
+          "date": "2023-11-21",
+          "shift_id": 2,
+          "duration_hours": 4,
+          "reason": "Замена форм"
+        }
+      ]
+    },
+    {
+      "equipment_id": "EQ-010",
+      "name": "Автоматическая линия",
+      "type": "automated_line",
+      "quantity": 1,
+      "max_parts_per_shift": 900,
+      "efficiency_factor": 0.96,
+      "shifts_availability": [
+        {
+          "shift_id": 1,
+          "available": true,
+          "start_time": "06:00:00",
+          "end_time": "14:00:00"
+        },
+        {
+          "shift_id": 2,
+          "available": true,
+          "start_time": "14:00:00",
+          "end_time": "22:00:00"
+        },
+        {
+          "shift_id": 3,
+          "available": true,
+          "start_time": "22:00:00",
+          "end_time": "06:00:00"
+        }
+      ],
+      "maintenance_schedule": [
+        {
+          "date": "2023-11-18",
+          "shift_id": 3,
+          "duration_hours": 4,
+          "reason": "Обновление ПО"
+        }
+      ]
+    }
+  ]
+}
